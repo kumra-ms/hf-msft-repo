@@ -1,5 +1,5 @@
 $schema: https://azuremlschemas.azureedge.net/latest/environment.schema.json
-name: transformers
+name: sample-env
 version: 0.0.1
 image: placeholder
-description: test
+description: Sample Docker environment
