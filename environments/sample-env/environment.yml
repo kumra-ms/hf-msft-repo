@@ -1,0 +1,5 @@
+$schema: https://azuremlschemas.azureedge.net/latest/environment.schema.json
+name: sample-env
+version: 0.0.1
+image: placeholder
+description: Sample Docker environment

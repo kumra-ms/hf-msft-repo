@@ -1,0 +1,12 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sample-app
+    volumes:
+      - .:/app
+    environment:
+      - ENV=development
+    stdin_open: true
+    tty: true
